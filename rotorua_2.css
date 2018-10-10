@@ -1,0 +1,219 @@
+body {
+    background-color: azure;
+    margin: 0px;
+    display: flex;
+    flex-direction: column;
+}
+
+#main {
+    width: 100vw;
+    background-color:transparent;
+    display: flex;
+    flex-direction: column;
+    align-items: center;  
+}
+
+/*HERO*/
+
+#hero {
+    width: 100vw;
+    height: 2987px;
+    display: flex;
+    flex-direction: column;
+    background-image: url(imagens_site/rotorua_back02b.png);
+    background-repeat: no-repeat;
+    align-items: center;
+}
+
+.parallax {
+    width: 100vw;
+    background-image: url(imagens_site/rotorua_back02b.png);
+    height: 600px;
+    background-attachment: fixed;
+/*    background-position: center;*/
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#top_menu {
+    width: 100vw;
+    height: 20vh;
+    max-height: 150px;
+    background-color:transparent;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    position: relative;
+    margin-top: 7px;
+}
+
+#caixa_logo {
+    background-color: transparent;
+    max-width: 100%;
+/*    max-width: 587px;*/
+    min-width: 10px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+
+
+.logo {
+    background-image: url(imagens_site/logo_a2.png);
+    width: 100%;
+    max-width: 170px;
+    min-width: 170px;
+/*    min-height: 150px;*/
+    max-height: 135px;
+/*    height: 100%;*/
+    height: 20vh;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.logo:hover {
+    opacity: 0.7;
+    
+}
+
+#caixa_cidade {
+    width: 100vw;
+    height: 100%;
+    opacity: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+/*    box-sizing: border-box;*/
+    
+}
+
+
+#cidade {
+    width: 100vw;
+    height: 100%;
+    background-image:url(CIDADES_WEB/smelliest/rotorua_03b.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;   
+}
+
+#caixa_para_caixa {
+    width: 100vw;
+    height: 100%;
+    background-color: transparent;
+    justify-content: space-between;
+    position: fixed;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#invisible_box {
+    width: 10%;
+    height: 100%;
+    background-color: transparent;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#invisible_box2 {
+    width: 10%;
+    height: 100vh;
+    background-color: transparent;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+#invisible_box3 {
+    width: 100%;
+    height: 100%;
+    background-color: transparent;
+    align-items: center;
+    justify-content: flex-end;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    margin-bottom: 20px;
+}
+
+
+
+/*
+.icone_bom {
+    width: 10vw;
+    height: 200px; 
+    background-image: url(imagens_site/bomba_mau.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+}
+*/
+
+
+
+/*FOOTER*/
+
+/*
+#footer {
+    width: 100%;
+    height: 200px;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    background-size: cover;
+}
+*/
+
+/*
+@keyframes bike {
+    from{background-position: top;}
+    to{background-position: bottom;}
+}
+
+#footer:hover {
+    animation: bike;
+    animation-duration: 1s;
+    animation-timing-function:ease-in-out;
+    animation-fill-mode: forwards;
+}
+*/
+
+/*
+@media screen and (max-width:600px) {
+    body {
+        background-color: cornflowerblue;
+    }
+    
+    #main {
+        width: 100%;
+        height: 100%;
+    }
+    
+    #header {
+        background-color: hotpink;
+        opacity: 0,7;
+    }
+}
+*/

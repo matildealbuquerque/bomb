@@ -1,0 +1,328 @@
+
+body {
+   background-color: rgba(0,255,170,1);
+    
+background: -webkit-gradient linear-gradient(to right, rgba(0,255,170,1) 0%, rgba(117,255,209,1) 26%, rgba(204,255,230,1) 51%, rgba(255,254,181,1) 77%, rgba(255,255,100,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00ffaa', endColorstr='#ffff64', GradientType=1 );
+  background-size:cover;
+  background-position: center;
+    background-repeat: no-repeat;
+    margin: 0px;
+    display: flex;
+    flex-direction: column;
+    background-attachment: fixed; 
+        }
+
+#main {
+    background-color: transparent;
+    width: 100vw;
+    height: 100%;
+}
+
+.bg {
+    background: rgba(0,255,170,1);
+    
+background: linear-gradient(to right, rgba(0,255,170,1) 0%, rgba(117,255,209,1) 26%, rgba(204,255,230,1) 51%, rgba(255,254,181,1) 77%, rgba(255,255,100,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00ffaa', endColorstr='#ffff64', GradientType=1 );
+    display: flex;
+  background-size:cover;
+  background-position: center;
+    background-repeat: no-repeat;
+}
+
+#menus_principais {
+    width: 100vw;
+    height: 100vh;
+    color: black;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between; 
+    align-items: center;
+    flex: auto;
+    position: relative;
+}
+
+#menus_principais_m {
+    display: none;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; 
+    align-items: center;
+    flex: auto;
+    position: relative;
+}
+
+
+.menu_e {
+    height: 95vh;
+    width: 100px;
+    min-width: 100px;
+    background-color: transparent;
+    margin: 15px;
+    outline: 4px solid #E195FE;
+    padding: 5px;
+    display: block;
+    -webkit-transition: width 2s;
+    transition: width 2s;
+}
+
+
+.menu_e:hover {
+    visibility: visible;
+    width: 300px;
+    outline: 4px solid #E195FE;
+}
+
+
+#text_menu_e {
+    font-family: 'Raleway', sans-serif;
+    font-size: 47px; 
+}
+
+
+.menu_d: hover {
+    width: 100vw;
+}
+
+
+
+
+#caixa_logo {
+    background-color: transparent;
+    max-width: 100%;
+/*    max-width: 587px;*/
+    min-width: 10px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+/*    margin: 15px;*/
+    
+}
+
+
+.logo {
+    background-image: url(imagens_site/logo_a2.png);
+    width: 100%;
+    max-width: 170px;
+    min-width: 170px;
+    min-height: 150px;
+    height: 20vh;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 5px;
+}
+
+.logo:hover {
+    opacity: 0.7;
+    
+}
+
+
+#frase_mark {
+    font-family: 'Averia Serif Libre', cursive;
+    font-weight: 700;
+    color: #E195FE;
+    font-size: 36px;
+    display: flex;
+    align-items: center;
+    font-size-adjust: auto;
+    margin-bottom: 45vh;
+    text-align: center;
+}
+
+
+#footer {
+    display: flex;
+    width: 100vw;
+    height: 100px;
+    background-color: black;
+    opacity: 0.5;  
+}
+
+
+
+#menus_principais_m {
+    display: none;
+}
+
+#text_mobile1 {
+    display: none;
+}
+
+#text_mobile2 {
+    display: none;
+}
+
+#frase_mark_m {
+    display: none;
+}
+
+
+#caixa_frase_m {
+    display: none;
+    }
+
+
+
+
+
+
+
+
+
+@media screen and (max-width:600px){
+    
+    body {
+        background: rgba(0,255,170,1);
+    
+background: linear-gradient(to bottom, rgba(0,255,170,1) 0%, rgba(117,255,209,1) 26%, rgba(204,255,230,1) 51%, rgba(255,254,181,1) 77%, rgba(255,255,100,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00ffaa', endColorstr='#ffff64', GradientType=1 );
+    display: flex;
+        flex-direction: row;
+  background-size:cover;
+  background-position: center;
+    background-repeat: no-repeat;
+    }
+    
+    #menus_principais {
+        display: none;
+    }
+    
+    #menus_principais_m {
+    color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; 
+    align-items: center;
+    position: relative;
+}
+    
+#caixa_logo_m {
+    background-color: transparent;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+   
+}
+
+#logo_m {
+    background-image: url(imagens_site/logo_a2.png);
+    width: 50%;
+    max-width: 140px;
+    min-width: 140px;
+    min-height: 100px;
+    max-height: 150px;
+    height: 100vh;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    align-items: center;
+}
+   
+    #text_mobile1 {
+    width: 100px;
+    height: 300%;
+    outline: 3px solid #E195FE;
+    display: flex;
+    flex-direction: column;
+    background-image: url(imagens_site/text_menu_e.png);
+    background-color: transparent;
+    transform: rotate(-90deg);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    align-items: center;
+    justify-content: center;
+    position: center;
+    transform: rotate(90deg);
+    }
+    
+  
+    
+/*
+    #imagem_1 {
+    background-image: url(imagens_site/text_menu_e.png);
+    transform: rotate(-90deg);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    }
+*/
+    
+    #text_mobile2 {
+    width: 100px;
+    height: 300%;
+    outline: 3px solid #E195FE;
+    display: flex;
+    background-image: url(imagens_site/text_menu_d.png);
+    transform: rotate(-90deg);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    }
+    
+/*
+    #imagem_2 {
+    background-image: url(imagens_site/text_menu_d.png);
+    transform: rotate(-90deg);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    }
+*/
+    
+    .menu_e {
+        display: none;
+    }
+    
+    #frase_mark {
+    display: none;
+}
+    
+    #caixa_frase_m {
+    background-color: transparent;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    width: 100vw;
+    height: 500px;
+    margin-top: 10px;
+    position: relative;
+    padding: 5px;
+    }
+    
+    #frase_mark_m {
+    font-family: 'Averia Serif Libre', cursive;
+    font-weight: 700;
+    color: #E195FE;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size-adjust: auto;
+    text-align: center;
+    background-color: transparent;
+    background-size: contain;
+    
+}
+    
+#footer {
+    display: none;  
+}
+
+
+    }
+

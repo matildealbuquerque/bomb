@@ -1,0 +1,154 @@
+body {
+    background-color: #00FFAA;
+    margin: 0px;
+    display: flex;
+    flex-direction: row;
+}
+
+.bg {
+    background: rgba(0,255,170,1);
+    
+background: linear-gradient(to bottom, rgba(0,255,170,1) 0%, rgba(117,255,209,1) 26%, rgba(204,255,230,1) 51%, rgba(255,254,181,1) 77%, rgba(255,255,100,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00ffaa', endColorstr='#ffff64', GradientType=1 );
+    display: flex;
+  background-size:cover;
+  background-position: center;
+    background-repeat: no-repeat;
+}
+
+#menus_principais {
+    width: 100vw;
+    height: 100vh;
+    color: black;
+    display: flex;
+    flex-direction: row;
+    justify-content:flex-start; 
+    align-items: center;
+    flex: initial;
+}
+
+
+#caixa_opcoes {
+    margin: 5px;
+    height: 95vh;
+    width: 100vh;
+    min-width: 80px;
+    background-color: transparent;
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+/*    justify-content: center;*/
+    transition: width 2s;
+    position: static;
+}
+
+
+
+#titulo_city {
+    font-family: 'Raleway', sans-serif;
+    font-size: 25px;
+    font-weight: 700;
+    color: #E195FE;
+}
+
+#opcoes {
+    font-family: 'Raleway', sans-serif;
+    font-size: 40px;
+    font-weight: 500;
+    color: #E195FE;
+}
+
+#caixa_logo {
+    background-color: transparent;
+    max-width: 100%;
+/*    max-width: 587px;*/
+    min-width: 10px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    margin: 15px;
+    
+}
+
+
+#logo {
+    background-image: url(imagens_site/logo_a2.png);
+    width: 50%;
+    max-width: 170px;
+    min-width: 170px;
+    min-height: 150px;
+    height: 20vh;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    flex-direction: row;
+
+}
+
+@media screen and (max-width:600px) {
+    
+    #caixa_logo {
+        height: 150px;
+    }
+    
+#menus_principais {
+    width: 100vw;
+    height: 100vh;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content:flex-start; 
+    align-items: center;
+    flex: initial;
+}
+    
+#logo {
+    background-image: url(imagens_site/logo_a2.png);
+    width: 50%;
+    max-width: 140px;
+    min-width: 140px;
+    height: 100vh;
+    max-height: 150px;
+/*    min-height: 100px;*/
+    height: 5vh;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    align-items: center;
+
+}
+    
+/*
+#logo {
+    background-image: url(imagens_site/logo_a2.png);
+    width: 5vw;
+    height: 5vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    flex-direction: row;
+
+}
+*/
+    
+#titulo_city {
+    font-size: 40px;
+    text-align: center;
+    
+} 
+    
+#opcoes {
+    font-family: 'Raleway', sans-serif;
+    font-size: 33px;
+    font-weight: 500;
+    color: #E195FE;
+    justify-content: center;
+    text-align: center;
+}
+    
+}

@@ -1,0 +1,78 @@
+body {
+    background-color: transparent;
+    margin: 0px;
+}
+
+#menus_principais {
+    background-color: transparent;
+    width: 100vw;
+    height: 100vh;
+    color: black;
+    display: flex;
+    justify-content:flex-start; 
+    align-items: center;
+    flex: initial;
+    transform: rotate(180deg);
+}
+
+#caixa_menu {
+   height: 95vh;
+    width: 100px;
+    min-width: 100px;
+    background-color: transparent;
+    padding: 5px;
+    display: flex;
+    flex-direction: row;
+    margin-left: 0px;
+    transition: width 2s; 
+    
+}
+
+#caixa_opcoes {
+    margin-right: 30px;
+    height: 95vh;
+    width: 200px;
+/*    min-width: 80px;*/
+    background-color: transparent;
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    transform: rotate(180deg);
+/*    transition: width 2s;*/
+/*    position: static;*/
+}
+
+#menu_text_d {
+    background-image: url(imagens_site/text_menu_d.png);
+    width: 100%;
+    max-width: 100px;
+    min-height: 100%;
+    height: 20vh;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: block;
+    flex-direction: column;
+    position: fixed;
+    transform: rotate(180deg);
+}
+
+
+#titulo_city {
+    font-family: 'Raleway', sans-serif;
+    font-size: 30px;
+    font-weight: 700;
+    color: #E195FE;
+}
+
+.opcoes {
+    font-family: 'Raleway', sans-serif;
+    font-size: 30px;
+    font-weight: 500;
+    color: #E195FE;
+}
+
+.opcoes:hover {
+    color: #d56dfd;
+}
